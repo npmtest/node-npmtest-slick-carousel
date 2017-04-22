@@ -1,4 +1,7 @@
-# test coverage for  [slick-carousel (v1.6.0)](https://github.com/kenwheeler/slick#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-slick-carousel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-slick-carousel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-slick-carousel.svg)](https://travis-ci.org/npmtest/node-npmtest-slick-carousel)
+# npmtest-slick-carousel
+
+#### basic test coverage for  slick-carousel (v1.6.0)  [![npm package](https://img.shields.io/npm/v/npmtest-slick-carousel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-slick-carousel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-slick-carousel.svg)](https://travis-ci.org/npmtest/node-npmtest-slick-carousel)
+
 #### the last carousel you'll ever need
 
 [![NPM](https://nodei.co/npm/slick-carousel.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/slick-carousel)
@@ -32,12 +35,22 @@
 ```json
 
 {
-    "author": {
-        "name": "Ken Wheeler"
+    "name": "slick-carousel",
+    "version": "1.6.0",
+    "description": "the last carousel you'll ever need",
+    "main": "slick/slick.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kenwheeler/slick.git"
     },
-    "bugs": {
-        "url": "https://github.com/kenwheeler/slick/issues"
-    },
+    "keywords": [
+        "carousel",
+        "slick",
+        "responsive",
+        "js",
+        "slider"
+    ],
+    "author": "Ken Wheeler <ken_wheeler@me.com>",
     "contributors": [
         {
             "name": "ken wheeler",
@@ -58,40 +71,14 @@
             "name": "ashley mcknight"
         }
     ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kenwheeler/slick/issues"
+    },
     "dependencies": {
         "jquery": ">=1.7.2"
     },
-    "description": "the last carousel you'll ever need",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "780f378e470f4e6f6bec1aa2bae0475f4f9eb085",
-        "tarball": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz"
-    },
-    "gitHead": "0aee9fe00e440cc9d72c2dc11768ad9277880603",
-    "homepage": "https://github.com/kenwheeler/slick#readme",
-    "keywords": [
-        "carousel",
-        "slick",
-        "responsive",
-        "js",
-        "slider"
-    ],
-    "license": "MIT",
-    "main": "slick/slick.js",
-    "maintainers": [
-        {
-            "name": "thekenwheeler"
-        }
-    ],
-    "name": "slick-carousel",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kenwheeler/slick.git"
-    },
-    "scripts": {},
-    "version": "1.6.0"
+    "bin": {}
 }
 ```
 
